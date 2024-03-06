@@ -1,0 +1,29 @@
+@import url("normalize.css");
+
+:root {
+    --mobile: 400px;
+    /* --desktop: 1500px; */
+
+    --color-primary: #33404F;
+    --color-secondary: #00DDA3;
+    --color-tertiary: #B5C5C3;
+    --color-optional: #fffe91;
+    --color-bg-body: #ececec;
+    --color-bg-card: #fff;
+    --color-titles: #000;
+    --color-text: #8a8a8a;
+    --color-subtitles: #000;
+
+    --color-bg-user: linear-gradient(94deg, rgba(135,216,249,1) 0%, rgba(174,247,174,1) 39%, rgba(255,254,145,1) 73%);
+
+    --radius: 6px;
+    --shadow: box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
