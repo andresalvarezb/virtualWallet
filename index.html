@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <div class="banner"><img src="storage/img/banner.svg" alt=""></div>
     <header class="header">
         <div class="header__logo">
             <div class="header__icono">
@@ -31,25 +30,135 @@
                 <p>here's your balance</p>
             </article>
             <article class="titulo__balance">
-                <div class="balance__one">
-                    <small>saving</small>
+                <div class="balance balance--one">
+                    <small class="balance__title">saving</small>
                     <label for="">
-                        <sub>$</sub>
+                        <span>$</span>
                         15,615
                     </label>
-                    <progress id="saving" value="70" max="100"></progress>
+                    <progress class="balance__progress" id="saving" value="70" max="100"></progress>
                 </div>
-                <div class="balance__two">
-                    <small>assets</small>
+                <div class="balance balance--two">
+                    <small class="balance__title">assets</small>
                     <label for="">
-                        <sub>$</sub>
+                        <span>$</span>
                         15,615
                     </label>
-                    <progress id="assets" value="30" max="100"></progress>
+                    <progress class="balance__progress" id="assets" value="30" max="100"></progress>
                 </div>
             </article>
         </section>
+        <section class="operation">
+            <div class="activities">
+                <h2 class="activities__title">activities</h2>
+                <div class="activities__carrousel">
+                    <a href="#" class="carrousel__card">
+                        <div class="card__img">
+                            <img src="storage/img/user.svg" alt="">
+                        </div>
+                        <h3 class="card__title">Account</h3>
+                    </a>
+                    <a href="#" class="carrousel__card">
+                        <div class="card__img">
+                            <img src="storage/img/security.svg" alt="">
+                        </div>
+                        <h3 class="card__title">Privacy</h3>
+                    </a>
+                    <a href="#" class="carrousel__card">
+                        <div class="card__img">
+                            <img src="storage/img/help.png" alt="">
+                        </div>
+                        <h3 class="card__title">Help</h3>
+                    </a>
+                    <a href="#" class="carrousel__card">
+                        <div class="card__img">
+                            <img src="storage/img/user.svg" alt="">
+                        </div>
+                        <h3 class="card__title">Account</h3>
+                    </a>
+                    <a href="#" class="carrousel__card">
+                        <div class="card__img">
+                            <img src="storage/img/security.svg" alt="">
+                        </div>
+                        <h3 class="card__title">Privacy</h3>
+                    </a>
+                    <a href="#" class="carrousel__card">
+                        <div class="card__img">
+                            <img src="storage/img/help.png" alt="">
+                        </div>
+                        <h3 class="card__title">Help</h3>
+                    </a>
+                </div>
+            </div>
+            <section class="transactions">
+                <h2 class="transactions__title">Transactions</h2>
+                <ul>
+                    <li class="transaction">
+                        <div class="transaction__icon">
+                            <i class="fa-solid fa-sort-up"></i>
+                        </div>
+                        <div class="transaction__content">
+                            <div class="transaction__title">
+                                <h3>food & beverage</h3>
+                                <span>+28.11</span>
+                            </div>
+                            <div class="transaction__date">
+                                <p>five lods</p>
+                                <span>feb 21</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="transaction">
+                        <div class="transaction__icon">
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="transaction__content">
+                            <div class="transaction__title">
+                                <h3>shopping</h3>
+                                <span>-175.64</span>
+                            </div>
+                            <div class="transaction__date">
+                                <p>h&m 1257 ****</p>
+                                <span>jan 14</span>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+            </section>
+        </section>
     </main>
+
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="storage/img/icon.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="storage/img/icon_1.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="storage/img/icon_2.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="storage/img/icon_3.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="storage/img/icon_4.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>
