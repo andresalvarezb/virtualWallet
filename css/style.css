@@ -23,7 +23,6 @@
     --shadow: box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-
 * {
     padding: 0;
     margin: 0;
@@ -133,7 +132,6 @@ body {
     font-size: 1.6rem;
 }
 
-
 .balance--one progress[value] {
     --color: var(--color-secondary);
     --background: var(--color-secondary);
@@ -173,18 +171,12 @@ progress[value]::-moz-progress-bar {
     background: var(--color);
 }
 
-
 .operation {
     --radius : 4rem;
     background-color: var(--color-text);
     border-radius: var(--radius) var(--radius) 0 0;
     padding-block: 3rem;
 }
-
-/* .activities {
-    height: 16rem;
-
-} */
 
 .activities__title,
 .transactions__title {
@@ -196,12 +188,9 @@ progress[value]::-moz-progress-bar {
 .activities__carrousel {
     display: flex;
     align-items: center;
-    /* flex-wrap: wrap; */
     gap: 2rem;
     padding-block: 2rem;
     overflow-x: scroll;
-    /* overflow: hidden; */
-
 }
 
 .carrousel__card {
@@ -229,29 +218,45 @@ progress[value]::-moz-progress-bar {
 
 .transactions {
     margin-top: 3rem;
+    max-height: 90rem;
+    overflow-y: scroll;
+}
+
+.transactions ul ´{
+    max-height: 60rem;
+    overflow-y: scroll;
 }
 
 .transaction {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-top: 1rem;
 }
 
 .transaction__icon {
-    background-color: #00DDA3;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.8rem;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0rem;
     border-radius: 50%;
+    background-color: #00DDA3;
+    color: var(--color-text);
 }
-/* 
-.transaction__icon {
-    flex: 1;
+
+.transaction__icon-down {
+    padding: 0rem 1.5rem 1rem;
+    align-self: flex-start;
+    background-color: var(--color-tertiary);
 }
-*/
 
 .transaction__content {
     flex: 1;
-} 
+}
+
 .transaction__title,
 .transaction__date{
     display: flex;
