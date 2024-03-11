@@ -17,8 +17,8 @@
     color: var(--color-text);
     border-radius: 50%;
     text-wrap: wrap;
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
 }
 
 .main {
-    margin-top: 5rem;
+    margin-top: 9rem;
 }
 
 .main__nav {
@@ -72,7 +72,6 @@
 
 .spending {
     background-color: #dbf2f6;
-    padding-block: 1rem;
 }
 
 .spending__etf {
