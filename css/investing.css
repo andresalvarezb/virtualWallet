@@ -10,17 +10,23 @@ body {
     color: var(--color-primary);
 }
 
-.investing {
+.investing,
+.balance,
+.spending {
     padding: 2rem;
 }
 
-.investing__title {
+.investing__title,
+.balance__title,
+.spending__title {
     text-transform: capitalize;
     color: var(--color-primary);
     font-size: 2.5rem;
 }
 
-.investing__etf {
+.investing__etf,
+.balance__etf,
+.spending__etf {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -29,39 +35,49 @@ body {
     border-radius: 2rem;
 }
 
-.investing_img {
+.investing_img,
+.balance_img,
+.spending_img {
     padding: 3rem 2rem;
     flex: 1;
-    background-color:  #dbf2f6;
-    background: radial-gradient(circle, rgba(219,242,246,1) 0%);
+    background-color: #dbf2f6;
+    background: radial-gradient(circle, rgba(219, 242, 246, 1) 0%);
     border-radius: 0 45% 45% 0;
 }
 
-.investing_img img {
+.investing_img img,
+.balance_img img,
+.spending_img img {
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.investing__content {
+.investing__content,
+.balance__content,
+.spending__content {
     padding: 2rem;
     flex: 1;
 }
 
-.investing__content h2 {
+.investing__content h2,
+.balance__content h2,
+.spending__content h2 {
     font-size: 2rem;
     color: var(--color-primary);
 }
 
-.investing__content p {
+.investing__content p,
+.balance__content p,
+.spending__content p {
     font-size: 1.4rem;
     color: var(--color-tertiary);
     padding-block: 1rem;
 }
 
 .investing__content a {
-    --radius: 2rem;
-    color: var(--color-text);
+    --radius: 2re,
+        color: var(--color-text);
     background: var(--color-secondary);
     padding: 1.3rem 2.5rem;
     border-radius: var(--radius);
@@ -70,7 +86,9 @@ body {
     text-decoration: none;
 }
 
-.investing__etf i {
+.investing__etf i,
+.balance__etf i,
+.spending__etf i {
     position: absolute;
     color: var(--color-text);
     background: var(--color-secondary);
@@ -116,6 +134,7 @@ body {
     object-fit: cover;
     object-position: center;
 }
+
 .card:last-child {
     opacity: 0.5;
 }

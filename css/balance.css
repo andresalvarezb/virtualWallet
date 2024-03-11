@@ -1,0 +1,80 @@
+.wrapper {
+    background: url("../storage/img/fondo-vista-3.png") bottom / cover no-repeat;
+    height: 23rem;
+    position: relative;
+}
+
+.wrapper .header__titulo {
+    color: #fff;
+}
+
+.wrapper h1 {
+    background-color: var(--color-secondary);
+    width: max-content;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3rem;
+    color: var(--color-text);
+    border-radius: 50%;
+    text-wrap: wrap;
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem;
+    text-transform: capitalize;
+    position: relative;
+    bottom: -1rem;
+}
+
+.main {
+    margin-top: 5rem;
+}
+
+.main__nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 50px;
+    width: max-content;
+}
+
+.main__nav a:first-child {
+    color: #fff;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.main__nav a:last-child {
+    color: var(--color-tertiary);
+    background-color: var(--color-text);
+    border-color: var(--color-tertiary);
+}
+
+.tend {
+    margin-top: 2rem;
+}
+
+.tend img {
+    width: 100%;
+}
+
+.spending {
+    background-color: #dbf2f6;
+    padding-block: 1rem;
+}
+
+.spending__etf {
+    box-shadow: none;
+}
