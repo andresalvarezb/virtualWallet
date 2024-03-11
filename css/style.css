@@ -38,9 +38,12 @@ body {
     background: var(--color-primary) url("../storage/img/banner.svg") top / cover no-repeat;
 }
 
+/* FIRST PAGE */
+
 .header,
 .main__title,
 .operation,
+.cards,
 .footer {
     padding: 2rem;
 }
@@ -275,22 +278,6 @@ progress[value]::-moz-progress-bar {
     font-size: 1.2rem;
     color: var(--color-tertiary);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
     width: 100%;
