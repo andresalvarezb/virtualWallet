@@ -6,10 +6,10 @@
     --mobile: 430px;
     /* --desktop: 1500px; */
 
-    --color-primary: #33404F;
-    --color-secondary: #00DDA3;
-    --color-tertiary: #B5C5C3;
-    --color-text: #fff;
+    --color-primary: #240A34;
+    --color-secondary: #EABE6C;
+    --color-tertiary: #891652;
+    --color-text: #FFEDD8;
     /* --color-optional: #fffe91;
     --color-bg-body: #ececec;
     --color-bg-card: #fff;
@@ -176,7 +176,8 @@ progress[value]::-moz-progress-bar {
 
 .operation {
     --radius : 4rem;
-    background-color: var(--color-text);
+    /* background-color: var(--color-text); */
+    background-color: #fff;
     border-radius: var(--radius) var(--radius) 0 0;
     padding-block: 3rem;
 }
@@ -199,7 +200,8 @@ progress[value]::-moz-progress-bar {
 .carrousel__card {
     --radius : 2.5rem;
     display: block;
-    background-color: var(--color-text);
+    /* background-color: var(--color-text); */
+    background-color: #fff;
     padding: 3rem 1.5rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: var(--radius);
@@ -215,10 +217,13 @@ progress[value]::-moz-progress-bar {
     margin: 0 auto;
 }
 
-.card__img img {
+/* .card__img img {
     width: 100%;
-}
+} */
 
+.carrousel__card i {
+    font-size: 2rem;
+}
 .transactions {
     margin-top: 3rem;
     max-height: 90rem;
@@ -246,7 +251,7 @@ progress[value]::-moz-progress-bar {
     font-size: 1.8rem;
     padding: 1.5rem 1.5rem 0rem;
     border-radius: 50%;
-    background-color: #00DDA3;
+    background-color: var(--color-secondary);
     color: var(--color-text);
 }
 
